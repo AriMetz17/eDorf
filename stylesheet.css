@@ -43,3 +43,51 @@
   transform: translate(-50%, -50%);
   text-align: center;
 }
+.navguide ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #00affd;
+}
+
+.icons li {
+  float: left;
+  border-right:1px solid black;
+}
+
+.icons li:last-child {
+  border-right: none;
+}
+
+.icons li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 15px 136.4px;
+  text-decoration: none;
+}
+
+.icons a:hover:not(.active) {
+  background-color: #111;
+}
+
+.icons .active {
+  background-color: #4CAF50;
+}
+
+.icons a:link {
+    color: blue;
+}
+
+.icons a:visited {
+    color: purple;
+}
+
+.icons a:hover {
+    color: red;
+}
+
+.icons a:active {
+    color: yellow;
+}
