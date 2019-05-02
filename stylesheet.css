@@ -1,6 +1,7 @@
-.background{
-    color: #6699ff;
-}
+body {
+	background-color: #6699ff;;
+}	
+
 .column {
   float: left;
   width: 50%;
