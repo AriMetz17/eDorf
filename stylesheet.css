@@ -171,7 +171,7 @@ body {
     .nav-list > .list > .item:last-child {
       border-bottom: 0; }
   .nav-list > .list > .item > .link {
-    border-color: #212121;
+    border-color: transparent;
     padding: 0.75rem 1rem 0.5rem 1rem;
     flex-basis: 100%;
     display: block;
