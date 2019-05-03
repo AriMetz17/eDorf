@@ -179,7 +179,7 @@ text-align: center;
     width: 40%; }
   .nav-list > .list > .item {
     display: flex;
-    padding: 5em;
+    padding: 7em;
     border-bottom: 1px solid rgba(176, 176, 176, 0.5); }
     .nav-list > .list > .item:last-child {
       border-bottom: 0; }
