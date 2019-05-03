@@ -191,7 +191,7 @@ text-align: center;
     background: #5882FA;
     font-size: 1.5rem;
     padding-left: 1.5rem;
-    color: #e0e0e0;
+    color: #5882FA;
     transition: all 0.3s ease-in-out; }
     .nav-list > .list > .item > .link:hover, .nav-list > .list > .item > .link.-active {
       color: #7dc580; }
