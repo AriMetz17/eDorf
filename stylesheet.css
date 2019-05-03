@@ -63,7 +63,7 @@ text-align: center;
 * copied from the website file:///Users/Mike-Lu/Downloads/simply-nav-master/index.html# */
 
 .nav-wrapper {
-  background-color: #212121;
+  background-color: #5882FA;
   position: absolute;
   top: 0;
   left: 0;
@@ -118,7 +118,7 @@ text-align: center;
           bottom: unset; } }
 
 .toggle-nav {
-  background-color: #212121;
+  background-color: #5882FA;
   cursor: pointer;
   box-shadow: none;
   border: 0;
@@ -145,7 +145,7 @@ text-align: center;
     -webkit-transition: max-height 0.2s ease-in-out; }
 
 .nav-list {
-  background-color: #212121;
+  background-color: #5882FA;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -171,7 +171,7 @@ text-align: center;
       overscroll-behavior-y: auto;
       -webkit-overflow-scrolling: touch; }
   .nav-list > .list.-left {
-    background: #212121;
+    background: #5882FA;
     position: relative;
     width: 60%;
     height: 100%; }
@@ -188,7 +188,7 @@ text-align: center;
     padding: 0.75rem 1rem 0.5rem 1rem;
     flex-basis: 100%;
     display: block;
-    background: #212121;
+    background: #5882FA;
     font-size: 1.5rem;
     padding-left: 1.5rem;
     color: #e0e0e0;
@@ -234,7 +234,7 @@ text-align: center;
         border-bottom: 2px solid transparent;
         display: block;
         flex-basis: unset;
-        background: #212121;
+        background: #5882FA;
         padding: 1.25rem 0;
         font-size: 1rem;
         outline: 0;
