@@ -1,14 +1,40 @@
 <html><head>
 		<title> eDorf </title>
 		<link href="stylesheet.css" rel="stylesheet" type="text/css">	
+		<script src="main.js"></script>
 	</head>
-	
-	<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">Home</a>
+  <a href="#">About us</a>
+  <a href="#">Cart</a>
+  <a href="#">Search</a>
+</div>
+
+<div id="main">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+</div>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
 		
-	<img class="welcome" style="width:20%;" src="logo1.png">
+	<img style="width:20%;" src="logo1.png">
 	
 	<br/> <br/> <br/>
-		
+
+
+
+<!--	
 <div class="navbar">
   <a href="#home">Home</a>
   <a href="#news">Search</a>
@@ -24,7 +50,7 @@
     </div>
   </div> 
 </div>
-  
+-->
 	<div class="column">
 	
 	<h2> Best Selling Product! </h2>
@@ -106,7 +132,7 @@
 	<br/>
 	<p style="text-align:center;"> ______________________________________ </p>
 	
-	<p> Copyright © 2019 eDorf Inc. All Rights Reserved </p>
+	<p> feaiho </p>
 	</div>
 	
 
