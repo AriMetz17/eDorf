@@ -123,3 +123,23 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+.welcome {
+  position: relative;
+  -webkit-animation-name: welcome; 
+  -webkit-animation-duration: 20s; 
+  animation-name: welcome;
+  animation-duration: 20s;
+}
+
+@-webkit-keyframes welcome {
+  0% {left:0%;}
+ 50% {left:80%;}
+ 100% {left:0%;}
+}
+
+@keyframes welcome {
+   0% {left:0%;}
+ 50% {left:80%;}
+ 100% {left:0%;}
+}
