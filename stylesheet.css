@@ -174,9 +174,11 @@ body {
 .welcome {
   position: relative;
   -webkit-animation-name: welcome; 
-  -webkit-animation-duration: 20s infinite; 
+  -webkit-animation-duration: 20s; 
+  -webkit-animation-direction: infinite;
   animation-name: welcome;
-  animation-duration: 20s infinite;
+  animation-duration: 20s;
+  animation-direction: infinite;
 }
 
 @-webkit-keyframes welcome {
