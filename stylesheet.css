@@ -175,10 +175,10 @@ body {
   position: relative;
   -webkit-animation-name: welcome; 
   -webkit-animation-duration: 20s; 
-  -webkit-animation-direction: infinite;
+  -webkit-iteration-count: infinite;
   animation-name: welcome;
   animation-duration: 20s;
-  animation-direction: infinite;
+  animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes welcome {
