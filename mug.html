@@ -1,60 +1,76 @@
 <html><head>
-
 		<title> eDorf </title>
-
 		<link href="stylesheet.css" rel="stylesheet" type="text/css">	
-
+		<script src="main.js"></script>
 	</head>
 
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Home</a>
+  <a href="aboutus.html">About Us</a>
+  <a href="#">Cart</a>
+  <a href="#">Search</a>
+</div>
+
+<div id="main">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+</div>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+		
+	<img class="welcome" style="width:20%;" src="logo1.png">
 	
-
-	<body>
-
-<div>
-
-		<img style="width:20%;" class="welcome" src="logo1.png">
-		
 	<br/> <br/> <br/>
-		
-<!-- copied from website file:///Users/Mike-Lu/Downloads/simply-nav-master/index.html# -->
-  <header class="nav-wrapper">
-    <nav class="nav">
-      <button class="toggle-nav" type="button">
-        <div class="burger -squeeze -offset" type="button">
-          <span class="burger-lines"></span>
-        </div>
-      </button>
-   
-      <ul class="nav-list" role="navigation">
-        <div class="list -left">
-          
-          <li class="item">
-            <a class="link" href="index.html">Home</a>
-          </li>
-          <li class="item">
-            <a class="link" href="aboutus.html">About Us</a>
-          </li>
-          <li class="item">
-            <a class="link" href="#how-to-use">Search</a>
-          </li>
-          <li class="item">
-            <a class="link" href="#example">Cart</a>
-          </li>
-        </div>
-        <div class="list -right">
-          <div class="overlay"></div>
-        </div>
-      </ul>
-    </nav>
-  </header>
 
-<div>
-	<img src= "best.png" style="float:left; width:70%;">
-<p style="float:right;"> This mug is eDorf's best seller.  It keeps tea hot, and water cold. 
+
+
+<!--	
+<div class="navbar">
+  <a href="#home">Home</a>
+  <a href="#news">Search</a>
+  <a href="#news">About us</a>
+  <div class="dropdown">
+    <button class="dropbtn">Cart 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Cart</a>
+      <a href="#">Order</a>
+      <a href="#">List</a>
+    </div>
+  </div> 
+</div>
+-->
+	
+	<hr/>
+
+<div> <br/>
+
+	<h1 style="margin-left:15%;"> Waldorf Mug </h1> <br/> <br/>
+	<img src= "best.png" style="float:left; width:40%;">
+	<div  class="column2" style="border-left: none;">
+	<p style="float:right;"> This mug is eDorf's best seller.  It keeps tea hot, and water cold. 
 	If you want a reliable mug, this is the mug for you. It provides comfort when sad, when you're cold,
 	it warms you up and when you're hot it cools you down.  eDorf reccommends this mug if you are 
 	looking for a gift for any occasion, for anyone or even yourself.  </p>
-	<h2><u> Comments </u></h2>
+	</div>
+	
+	<h2 style="clear:left; text-align:center;"> Special deal today! $24.99!! </h2>
+	
+	<hr/>
+
+	<div>
+	<h2 style="clear:left;"><u> Comments </u></h2>
 	<p>
 	<li> I will certainly buy another!! </li>
 	<li> Thank you, eDorf for this wonderful gift! I bought this mug for my grandma for her birthday. 
@@ -68,4 +84,13 @@
 	<li> I bought this mug for myself, to cheer myself up on a bad day, it arrived a few days later, and I felt much 
 		better, after drinking hot tea in it, made by my mother. </li>
 	</p>
-</div></div></body></html>  
+</div></div>
+
+<div>
+	<br/>
+	<p style="text-align:center;"> ______________________________________________________________ </p>
+	
+	<p style="text-align:center;"> Copyright © 2019 eDorf Inc. All Rights Reserved </p>
+</div>
+
+</body></html>  
